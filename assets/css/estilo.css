@@ -1,0 +1,130 @@
+/* Reset de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Texto escuro para boa leitura */
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #006400; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+/* Estilo para os parágrafos de introdução */
+.container p {
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Estilo para os títulos das seções */
+h2 {
+    color: #006400; /* Verde escuro */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+    border-bottom: 2px solid #006400;
+    padding-bottom: 5px;
+}
+
+/* Estilo para a lista numerada */
+ol {
+    margin-left: 20px;
+    list-style-type: decimal;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Estilo para cada item da lista */
+ol li {
+    margin-bottom: 15px;
+}
+
+/* Estilo para links internos ou de navegação */
+a {
+    color: #006400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #006400; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+    margin-top: 50px;
+    border-top: 2px solid #004d00; /* Verde mais escuro */
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Adicionando estilo para pequenos dispositivos (responsividade) */
+@media (max-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+/* Estilo para melhorar a legibilidade de listas com muitas dicas */
+ol {
+    margin-bottom: 40px;
+}
